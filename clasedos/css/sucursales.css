@@ -1,0 +1,26 @@
+#parrafo{
+    color: red;
+}
+/* selector global para el html */
+*{
+    
+}
+/* slector de clase */
+.segundo{
+    color: greenyellow;
+
+}
+
+.grande{
+    font-size: 50px;
+    background: rgb(189, 117, 117);
+}
+/* selector de id="" */
+#unico {
+    color: blueviolet;
+}
+
+div {
+    background: rgb(92, 92, 199);
+    
+}
