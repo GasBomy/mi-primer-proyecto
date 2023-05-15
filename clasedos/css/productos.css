@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    background: black;
+    margin: 50px;
+    padding: 10px;
+}
+
+caption{
+    color: crimson;
+}
+
+h2{
+    color: blue;
+}
+
+thead {
+    color: red;
+    background: pink;
+
+}
+
+th{
+    border: 10px;
+    margin: 10px;
+}
+
+tbody{
+    color: aquamarine;
+    background: black;
+}
+
+tfoot{
+
+    color: blueviolet;
+}

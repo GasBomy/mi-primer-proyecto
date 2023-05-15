@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+
+    width: 25%;
+    height: 300px;
+    border: white solid 10px;
+
+
+}
