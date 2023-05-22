@@ -1,0 +1,56 @@
+/*propiedades que manejan la tipografia dentro de nuestros dos html*/
+
+/* importada la tipografia desde css */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+</style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+.p2{
+    /* display: inline; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    font-style: italic;
+}
+.p3{
+    font-family: monospace;
+    font-size: 35px;
+    font-style: oblique;
+
+}
+/* tipografia linkeada */
+.p4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+/* tipografia desde css */
+.p5{
+    font-family: 'Pangolin', cursive;
+    font-size: 5vw;
+    font-weight: 600;
+}
+/* tipografia descargada y linkeada desde los archivos propios */
+@font-face {
+    font-family:foldit ;
+    src: url(../fonts/Foldit-VariableFont_wght.ttf);
+}
+.p6{
+    font-size: 3vw;
+    font-family:foldit ;
+    font-weight: 900;
+   
+}
