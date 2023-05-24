@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+}
+/* flex es responsive */
+.contenedorPadre{
+    display: flex;
+    padding: 20px;
+    background: blue;
+    flex-direction: column-reverse;/* columna inversa */
+    flex-direction: row-reverse;/* fila inversa */
+    flex-direction: column;/* columnas */
+    flex-direction:row ;/* fila */
+    flex-wrap: wrap-reverse;/* salta de linea y me invierta las filas */ 
+    flex-wrap: nowrap;/* no salta de linea */
+    flex-wrap: wrap;/* salta de linea cuando el dispositivo es pequeño*/
+    justify-content: flex-start;/* inicia los elementos en left */
+    justify-content: flex-end;/* inicia los elementos a la derecha */
+    justify-content: center;/* ubica los elementos en el centro */
+    justify-content: space-around;/* separa automaticamente los elementos */
+    justify-content: space-between;/* separa automaticamente los elementos pegados los margenes*/
+    justify-content: space-evenly;/* separa automaticamente los elementos tiene un margen un poco mayor en los extremos*/
+    align-content: end;/* ordena los elementos en el bottom del contenedor */
+    align-content: center;/* ordena los elementos en el centro */
+    align-content: flex-end;/* ordena los elementos en el bottom del contenedor */
+    align-content: flex-start;/* ordena los elementos en arriba en le contenedor */
+    align-items: end;
+    align-items: center;
+    height: 600px;
+} 
+.contenedorPadre div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+
+
+}
