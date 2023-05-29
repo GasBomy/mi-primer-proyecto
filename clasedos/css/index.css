@@ -1,3 +1,86 @@
 body {
     background: lightblue;
 }
+/* @media screen and (max-width: 600px)   {
+    body{
+        background: yellow;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h1{
+        color: blue;
+    }
+    p{
+        line-height: 2.5px;
+    }
+
+}
+ */
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {     body{
+    background: violet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: blue;
+}
+p{
+    line-height: 2.5px;
+} }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {     body{
+    background: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: blue;
+}
+p{
+    line-height: 2.5px;
+} }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {     body{
+    background: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: blue;
+}
+p{
+    line-height: 2.5px;
+} }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {     body{
+    background: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: blue;
+}
+p{
+    line-height: 2.5px;
+} }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {     body{
+    background: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: blue;
+}
+p{
+    line-height: 2.5px;
+} }

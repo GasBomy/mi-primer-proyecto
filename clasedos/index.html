@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>clasedos</title>
     <link rel="stylesheet" href="./css/index.css">
+
 </head>
 <body>
     <nav>
@@ -76,10 +77,10 @@
         <input type="date" min="1950-01-01" max="2023-5-30" class="input formulario"><br>
 
         <label for="password">password</label>
-        <input type="password" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g"><br>
+        <input type="password" id="password" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g"><br>
 
-        <label for="password">repet password</label>
-        <input type="password" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g"><br>
+        <label for="otropassword">repet password</label>
+        <input type="password" id="otropassword" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g"><br>
 
         <label for="provincia">provincia</label>
         <select name="provincias" id="provincias">
@@ -123,5 +124,6 @@
             </p>
         </address>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>
