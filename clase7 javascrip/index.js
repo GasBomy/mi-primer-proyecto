@@ -1,3 +1,26 @@
+let user = prompt(`por favor ingre su usuario: `)
+let pass = prompt(`por favor ingre su password: `)
+
+
+
+console.log(user);
+console.log(pass);
+
+if(user == `pepe` && pass == 1234){
+    alert(`bienvenido al sistema`)
+    //funcion de js para llevar al user a otra pagina 
+    window.location.href = `./pages/admin.html`
+} else{alert(`usuario o password incorrecto`);
+    location.href = `./pages/error.html`  }
+
+
+
+
+
+
+
+
+
 console.log("estoy en la cabecera de la pagina");
 
 /*comentarios
@@ -141,8 +164,86 @@ if (edad === 18) {
 console.log('===================================')
 
 let password = 123456
+let ingresa
 
 if (password === 123456) {
     console.log(`podes acceder a tu cuenta`)
     
 }
+
+//document.write(`<h1>hola</h1>`);
+
+let a = 5;
+
+console.log(a == 5);
+console.log(a != 5);
+console.log(!true);
+console.log(!false);
+console.log('===================================')
+
+//operadores logicos: && 
+// && esto seria un ilogico: todas las condiciones deben ser true para que se ejecute
+//  esto seria o logico: solo una de las condiciones deben ser true
+
+let cliente = true;//suponer qur todos son clientes
+let pagoaldia = false;
+let dia = `viernes`;
+// false     false               false= false
+if (!cliente && dia == `lunes` && pagoaldia) {
+    console.log(`lo sentimos no tenemos ninguna oferta para usted`)
+}
+// true          false= false
+if (cliente && dia == `lunes`) {
+    console.log(`por ser viernes tiene 50% de descuente`) 
+}
+//   true       true= true
+if (cliente && dia == `viernes`) {
+    console.log(`por ser cliente y ser viernes, tnemos un 70% de descuento`)   
+}
+
+console.log('===================================')
+//   false      false              false
+if (!cliente || dia == `lunes` || pagoaldia) {
+    console.log(`lo sentimos no tenemos ninguna oferta para usted`)
+}
+
+if (cliente || dia == `lunes` || pagoaldia) {
+    console.log(`lo sentimos no tenemos ninguna oferta para usted`)
+}
+
+if (cliente || dia == `viernes` || pagoaldia) {
+    console.log(`lo sentimos no tenemos ninguna oferta para usted`)
+}
+
+console.log('===================================')
+
+
+let usuario = `pepe`;
+
+/*if(usuario == `pepe` && password == 123456){
+    consoles.log(`bienvenido pepe a tu sistema`);
+}
+
+
+if(usuario == `pepe` || password == 123456){
+    consoles.log(`bienvenido pepe a tu sistema`);  }*/
+
+
+
+    console.log('===================================')
+    console.log('===================================')
+
+    /*if (condition) {
+        
+    } else { o si no
+        
+    }*/
+
+    if(usuario == `pepe` && password == 123456){
+        consoles.log(`bienvenido pepe a tu sistema`);
+    }else{
+        console.log(`usuario o password o facial incorrectos`);
+    }
+    
+    //alert() funcion modal para enviar mensaje
+    // prompt() funcion modal para introducir datos

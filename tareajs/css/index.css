@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #031634;
+	
+}
+
+.principal{
+	display: flex;
+	margin: 50px auto;
+	border: 2px solid #036564;
+	height: 400px;
+	width: 400px;
+	border-radius: 5px;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenido{
+	position: relative;
+	margin: 0 auto;
+	height: 80%;
+	width: 80%;
+	display: flex;
+	justify-content: center ;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+}
+
+.logo{
+	color: #036564;
+	font-size: 4rem;
+	font-weight: 100;
+	user-select: none;
+}
+input{
+	background:#031634 ;
+	color:#036564;
+}
+.empa input{
+	outline: none;
+	border: none;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+}
+.empa input:hover{
+	border-bottom: 2px solid #036564;
+}
+.icon{
+	margin-top: 15px ;
+	color:#036564;
+}
+.pame{
+	display: flex;
+	gap:5px;
+}
+
+
+.botones{
+	display: flex;
+	justify-content: center;
+	flex-direction: row ;
+	gap: 15px;
+	margin: 20px auto;
+}
+
+button{
+	color: #036564;
+	border: none;
+	background: transparent;
+	border: none;
+	padding: 5px;
+}
+
+button:hover{
+	color: #031634;
+	background: #036564;
+	border-radius: 5px;
+}
+button:active{
+	color: #036564;
+	background: transparent;
+}
