@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="principal">
+		<div class="contenido">
+		<h1 class="logo">LOGIN</h1>
+		   <div>
+
+		   	<form class="empa">
+		   	 <div class="pame">
+		   		<span class="icon">
+		   			<ion-icon name="mail-outline"></ion-icon>
+		   		</span>
+		   		<input type="email" name="" placeholder="Email or Username" id="nombreProducto">
+		   		<label for="nombreProducto"></label>
+		   	</div>
+		   	<div class="pame">
+		   		<span class="icon">
+		   			<ion-icon name="lock-closed-outline"></ion-icon>
+		   		</span>
+		   		<input type="Password" name="" placeholder="Password" id="precioProducto">
+		   		<label for="precioProducto"></label>
+		   	</div>
+
+		   		<div class="botones">
+		   			<span></span>
+		   			<button type="button" onclick="cargarProductos()">Login</button>
+		   			<span></span>
+		   			<button type="reset">Reset</button>
+		   		</div>
+		   	</form>
+		   	
+		   </div>
+	    </div>
+		
+	</main>
+	
+	<table class="table table-success table-striped">
+		<thead>
+			<tr>
+				<td>Email</td>
+				<td>Nombre del usuario</td>
+			</tr>
+		</thead>
+		<tbody id="tablaProductos">
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+
+		</tbody>
+	  </table>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<script src="../js/html.js"></script>
+</body>
+</html>

@@ -3,47 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <main class="principal">
-		<div class="contenido">
-		<h1 class="logo">LOGIN</h1>
-		   <div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center mt-5">
+        <h1 class="m-5">
+            Login para el Acceso a Admin
+        </h1>
+    </div>
+    <div class="container">
+        <form>
+            <div class="mb-3">
+                <label for="nombreProducto" class="form-label">Email</label>
+                <input type="email" class="form-control" id="emailLogin" aria-describedby="emailHelp" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="passwordLogin" required>
+            </div>
+            <div class="">
+                <div class="text-center m-5">
+                    <button type="button" onclick="loginAdmin()" class="btn btn-primary w-75">Password</button>
+                </div>
+                <div class="text-center m-5">
+                    <button type="reset" class="btn btn-warning w-75">Borrar Datos</button>
+                </div>
+            </div>
+        </form>
+    </div>
 
-		   	<form class="empa">
-		   	 <div class="pame">
-		   		<span class="icon">
-		   			<ion-icon name="mail-outline"></ion-icon>
-		   		</span>
-		   		<input type="Email" name="" placeholder="Email or Username" id="email" required>
-		   		<label for="email"></label>
-		   	</div>
-		   	<div class="pame">
-		   		<span class="icon">
-		   			<ion-icon name="lock-closed-outline"></ion-icon>
-		   		</span>
-		   		<input type="Password" name="" placeholder="Password" id="password" required>
-		   		<label for="password"></label>
-		   	</div>
 
-		   		<div class="botones">
-		   			<span></span>
-		   			<button>Login</button>
-		   			<span></span>
-		   			<button type="reset">Reset</button>
-		   		</div>
-		   	</form>
-		   	
-		   </div>
-	    </div>
-		
-	</main>
-
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-<script src="../tareajs/js/html.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
